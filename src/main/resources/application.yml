@@ -1,2 +1,22 @@
 server:
-  port: 8081
+  port: 8081  #配置服务端口
+
+spring:
+  application:
+    name: demo-service  #配置服务名称
+  datasource:
+    url: jdbc:mysql://192.168.100.37:3306/member #配置数据库
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+eureka: #配置eureka
+  client:
+    service-url:
+      defaultZone : http://localhost:10086/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+
+mybatis:
+  type-aliases-package: com.happok.demo  #别名
