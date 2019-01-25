@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @ClassName SysApplication
- * @Description TODO
+ * @Description 启动类
  * @Author Administrator
  * @Date 2019/1/25 0025 下午 17:12
  * @Version 1.0

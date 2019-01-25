@@ -20,9 +20,10 @@ public class UserController {
     public String queryUserInfo(){
         User user = new User();
         user.setId(1);
-        user.setUsername("power");
-        user.setPassword("123456");
+        user.setUsername("power123");
+        user.setPassword("15521270779");
 
         return user.toString();
     }
+
 }
